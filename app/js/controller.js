@@ -1,10 +1,10 @@
 /* Controllers */
 angular
-        .module('blackBook')
-  .controller('contactController', function($scope, contactFactory) {
-  $scope.contact = contactFactory.list;
-  $scope.delete = function(index) {
-    contactFactory.delete(index);
+    .module('blackBook')
+      .controller('contactController', function($scope, contactFactory) {
+        $scope.contact = contactFactory.list;
+        $scope.delete = function(index) {
+        contactFactory.delete(index);
   };
 })
 .controller('addContactController', function($scope, contactFactory, $location) {
