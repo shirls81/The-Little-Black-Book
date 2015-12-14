@@ -1,0 +1,7 @@
+<div class="container-fluid">
+  <h1><i class="fa fa-users"></i>Current Contacts</h1>
+    <div class="row-fluid" ng-repeat="contact in contact">
+      <span ng-class="{completed: contact.completed}">{{ contact.name }}{{ contact.phone }}{{ contact.email }}</span>
+      <button ng-click="delete($index)"><i class="fa fa-times"></i></button>
+    </div>
+</div>

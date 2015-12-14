@@ -1,0 +1,107 @@
+/* app css stylesheet */
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    float: left;
+    margin-right: 5px;
+    width: 115px;
+}
+ .clearfix{
+   clear: both;
+ }
+ li.list-group-item {
+     height: 50px;
+ }
+ li.pic img {
+     max-width: 100%;
+ }
+  li.pic{
+    width: 50px;
+  }
+  li.name h1 {
+      margin-top: 11px;
+  }
+  .navbar-nav {
+      float: right!important;
+      margin: 0;
+  }
+  .navbar-default .navbar-nav > li > a {
+    font-size: 18px;
+}
+
+ul.nav.navbar-nav li a:hover {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+ul.left-header, ul.left-header li{
+  float: left;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+h1, .h1 {
+    font-size: 27px;
+}
+
+.container-fluid.ng-scope h1 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding-bottom: 5px;
+}
+
+i.fa.fa-user, i.fa.fa-users {
+    float: left;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+i.fa.fa-times {
+    font-size: 24px;
+    color: red;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+span.ng-binding {
+    font-size: 18px;
+}
+input {
+    padding: 6px;
+}
+
+input[type="submit"]:hover {
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+input[type="submit"] {
+   text-transform: uppercase;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-top: 25px;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+:hover{
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}

@@ -1,0 +1,8 @@
+<div class="row-fluid">
+  <i class="fa fa-user"></i><h3>Add New Contact</h3>
+  <form ng-submit="submit()">
+  <div class="span4 adding-value"><h4>Full Name:</h4><input placeholder="John Doe" ng-model="contactName" required/></div>
+    <div class="span4 adding-value"><h4>Phone:</h4><input type="tel" placeholder="XXX-XXX-XXXX" ng-model="contactPhone" required/></div>
+    <div class="span4 adding-value"><h4>Email:</h4><input type="email" placeholder="something@mail.com" ng-model="contactEmail" required/></div>
+  <div class="span4 adding-value"><input type="submit" value="Save" /></div>
+  </form>
